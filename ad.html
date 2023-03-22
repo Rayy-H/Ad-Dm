@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="ad.css">
+    
+</head>
+
+<body>
+
+    <h1>Admissão</h1>
+
+    <form id="meu-formulario">
+
+        <div>
+            <label for="nome">Nome completo: </label>
+            <input name="nome" type="text" id="nome" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="cpf">CPF: </label>
+            <input name="cpf" type="text" id="cpf" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="rg">Registro Geral (RG): </label>
+            <input name="rg" type="text" id="rg" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="nascimento">Data de Nascimento: </label>
+            <input name="nascimento" type="date" id="nascimento"  required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="endereco">Endereço: </label>
+            <input name="endereco" type="text" id="endereco"  required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="ctps">Carteira de Trabalho (CTPS):</label>
+            <input name="ctps" type="file" id="ctps" onchange="previewImage1(event)"  required>
+            <img id="preview-1" src="" style="max-width: 100%; max-height: 200px;" />
+        
+        </div>
+
+        <br>
+
+        <div>
+            <label for="vacina">Cartão de Vacina</label>
+            <input name="vacina" type="file" id="vacina" onchange="previewImage2(event)" required>
+            <img id="preview-2" src="" style="max-width: 100%; max-height: 200px;" />
+        </div>
+
+        <br>
+
+        <div id="mensagem-enviada">
+            <input id="enviar" type="submit" value="Enviar">
+        </div>
+
+
+    </form>
+
+
+
+
+    <script src="ad.js"></script>
+</body>
+
+</html>
