@@ -36,7 +36,6 @@ form {
   }
   #mensagem-enviada{
     position: relative;
-    left: 170px;
   }
   
   input[type="submit"]:hover {
@@ -71,6 +70,6 @@ form {
   #home{
     position: relative;
     bottom: 40px;
-    left: 100px;
     margin:auto;
+    left: 50px;
   }
