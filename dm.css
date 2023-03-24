@@ -1,0 +1,75 @@
+p {
+    font-size: 16px; /* define o tamanho da fonte */
+    line-height: 1.5; /* define a altura da linha */
+    color: #333; /* define a cor do texto */
+    margin: 0; /* remove as margens padrão */
+    padding: 10px; /* adiciona um preenchimento interno de 10 pixels */
+    border: 1px solid #ccc; /* adiciona uma borda de 1 pixel sólida e cinza claro */
+    border-radius: 5px; /* adiciona um raio de borda de 5 pixels */
+    background-color: #f7f7f7; /* define a cor de fundo */
+  }
+
+  textarea {
+    width: 40%; /* define a largura da textarea como 100% do contêiner pai */
+    height: 200px; /* define a altura da textarea como 150 pixels */
+    padding: 10px; /* adiciona um preenchimento interno de 10 pixels */
+    font-size: 16px; /* define o tamanho da fonte */
+    line-height: 1.5; /* define a altura da linha */
+    border: 1px solid #ccc; /* adiciona uma borda de 1 pixel sólida e cinza claro */
+    border-radius: 5px; /* adiciona um raio de borda de 5 pixels */
+    background-color: #f7f7f7;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* define a cor de fundo */
+  }
+  
+  textarea:focus {
+    outline: none; /* remove o contorno padrão quando a textarea está em foco */
+    border-color: #6d4c41; /* define a cor da borda quando a textarea está em foco */
+  }
+
+  .gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 100px;
+    position: relative;
+  }
+  
+  .gif-container img {
+    margin: auto;
+    display: block;
+    width: 450px;
+    height: 400px;
+    border: 3px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px gray;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+  }
+  input[type="submit"] {
+    display: block;
+    background-color: #f8f4f4;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position:relative;
+    left: 10px;
+    margin: auto;
+    top: 120px;
+    border: 2px black solid;
+  }
+  #mensagem-enviada{
+    position: relative;
+    margin: auto;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: gray;
+  }

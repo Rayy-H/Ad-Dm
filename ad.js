@@ -29,6 +29,10 @@ function previewImage1(event) {
     }
   }
 
+  function goHome(){
+    location.replace("/home.html");
+  }
+
 
   const formulario = document.querySelector('#meu-formulario');
     const mensagemEnviada = document.querySelector('#mensagem-enviada');
