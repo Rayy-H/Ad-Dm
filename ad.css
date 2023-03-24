@@ -36,6 +36,7 @@ form {
   }
   #mensagem-enviada{
     position: relative;
+    bottom: 3px;
   }
   
   input[type="submit"]:hover {
